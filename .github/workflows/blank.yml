@@ -19,9 +19,17 @@ jobs:
            java-version: '17'
            distribution: 'temurin'
 
-      # Теперь этот шаг сработает, так как файл gradlew появится
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
+      - name: Fix permissions and check files
+        run: |
+          chmod +x gradlew
+          ls -l gradle/wrapper/gradle-wrapper.jar
+          # Проверим, существует ли файл и какой у него размер
+          if [ -f "gradle/wrapper/gradle-wrapper.jar" ]; then
+            echo "JAR file exists"
+          else
+            echo "JAR file missing!"
+            exit 1
+          fi
 
       - name: Build Debug APK
         run: ./gradlew assembleDebug --stacktrace
