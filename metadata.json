@@ -1,0 +1,6 @@
+{
+  "name": "QNN-LLM-Auto",
+  "description": "Qualcomm QNN auto-detecting hardware LLM accelerator for Android 15, optimized with Root permissions and offline fallbacks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
