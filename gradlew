@@ -1,16 +1,3 @@
---2026-06-21 13:13:28--  https://raw.githubusercontent.com/gradle/gradle/master/gradlew
-Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
-Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
-HTTP request sent, awaiting response... 206 Partial Content
-Length: 8678 (8.5K), 8590 (8.4K) remaining [text/plain]
-Saving to: ‘gradlew’
-
-     0K
-     0K ........                                              100%  805K=0.01s
-
-2026-06-21 13:13:29 (805 KB/s) - ‘gradlew’ saved [8678/8678]
-
-      https://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
