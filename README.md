@@ -1,3 +1,6 @@
+[![Build QNN-LLM-Auto APK](https://github.com/drd4-q/LLM_runner/actions/workflows/blank.yml/badge.svg)](https://github.com/drd4-q/LLM_runner/actions/workflows/blank.yml)
+
+
 # QNN-LLM-Auto 🚀 — Умный Локальный Ускоритель LLM
 
 **QNN-LLM-Auto** — это высокопроизводительное локальное Android-приложение для ОС **Android 15 (API 35+)**, разработанное для автоматического поиска, инвентаризации и аппаратного ускорения больших языковых моделей (LLM) форматов **GGUF** и **Safetensors** на базе ядер **Hexagon NPU (HTP)** и графических чипов **Adreno GPU** через **Qualcomm AI Engine Direct SDK (QNN)**.
